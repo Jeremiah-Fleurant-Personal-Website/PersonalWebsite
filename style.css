@@ -6,16 +6,21 @@ body {
 h1 {
 
     text-align: center;
-    color: #37123C;
+    color: #27213C;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 2%;
+    padding: 0px;
     overflow: hidden;
-    background-color: #37123C;
-    font-size: 1.5em;
+    background-color: #5A352A;
+    font-size: 2.0em;
+}
+
+.active {
+    color: #F8F4E3;
+
 }
 
 li {
@@ -31,21 +36,40 @@ li a {
 }
 
 li a:hover {
-    background-color: #210924;
+    background-color: #4e260f;
 }
-main {
-background-color: #A99F96;
-color: #71677C;
-padding: 20px;
-overflow: hidden;
-margin: 0 25px
 
+main {
+    background-color: #9E6240;
+    color: #F8F4E3;
+    padding: 10px;
+    overflow: hidden;
+    margin:  25px
 }
 
 
 img {
     float: left;
-    width : 30%;
-    margin: 35px    
-
+    width: 30%;
+    margin: 35px
 }
+
+hr.rounded {
+    border-top: 8px solid #F8F4E3;
+    border-radius: 3px;
+    color: #F8F4E3;
+}
+
+.project-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    margin: 0 25px;
+    padding:30px;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .project-card img {
+    border-radius: 5px 5px 0 0;
+  }
+
